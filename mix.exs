@@ -19,7 +19,7 @@ defmodule NebulexExt.MixProject do
 
   defp deps do
     [
-      {:nebulex, "~> 1.0.0-rc.3", only: :test}
+      {:nebulex, github: "cabol/nebulex", branch: "master"}
     ]
   end
 end
